@@ -1,10 +1,14 @@
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: large;
-    padding: 20px;
-    margin: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  background-color: gray;
   }
+
+.search {
+  padding: 20px;
+  margin: 40px;
+}
 
 .links {
   text-align: right;
