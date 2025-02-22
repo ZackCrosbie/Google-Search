@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    padding: 20px;
+    margin: 40px;
+  }
+
+.links {
+  text-align: right;
+  font-size: medium;
+  padding: 10px;
+}
