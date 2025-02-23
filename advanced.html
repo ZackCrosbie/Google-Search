@@ -1,0 +1,52 @@
+<!-- Written by Zack Crosbie for Project0 in CS50 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Google Advance Search - Zack Crosbie</title>
+    </head>
+    <body id="advbody">
+        <div class="link">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div>
+            <img alt="Google" height="35" width="100" src="https://i.imgur.com/RSbtKse.png">
+            <p style="color: lightcoral; font-size: larger;">Advanced Search</p>
+            <br><hr><br>
+            <form action="https://www.google.com/search">
+                <table>
+                    <thead> <!-- I used a table to (try to) match the spacing in google's page; I can't properly use display: grid; for the life of me -->
+                        <th>
+                            <h5>Find pages with...</h5>
+                        </th>
+                        <th>
+                            <p> </p>
+                        </th>
+                        <th>
+                            <h6>To do this in the search box</h6>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><p class="subtext">all these words:</p></td><td><input type="text" name="as_q" class="advbar"></td><td><p class="subsubtext">Put the important words</p></td> <!--I edited the phrases a bit for clarity-->
+                        </tr>
+                        <tr>
+                            <td><p class="subtext">this exact word or phrase:</p></td><td><input type="text" name="as_epq" class="advbar"></td><td><p class="subsubtext">Puts the exact words in quotes</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtext">any of these words:</p></td><td><input type="text" name="as_oq" class="advbar"></td><td><p class="subsubtext">Puts OR between all of the words you want</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtext">none of these words:</p></td><td><input type="text" name="as_not" class="advbar"></td><td><p class="subsubtext">Puts a minus sign just before words you don't want</p></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td></td><td></td><td><input type="submit" value="Advanced Search" class="advbutn"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
